@@ -1,0 +1,16 @@
+{
+  "name": "dylan-snyder.github.io",
+  "version": "1.0.0",
+  "description": "Github Pages personal site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylan-snyder/dylan-snyder.github.io.git"
+  },
+  "author": "dylan-snyder",
+  "license": "ISC",
+  "homepage": "https://github.com/dylan-snyder/dylan-snyder.github.io#readme"
+}

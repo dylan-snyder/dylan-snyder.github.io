@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Anonymous Pro;
+    src: url("../fonts/AnonymousPro-Regular.ttf");
+}
+
+:root {
+    --color-light: #f8f8ff;
+    --color-dark: #111111;
+    --color-pink: #fe709f;
+    --color-orange: #fe9870;
+    --color-blue: #008ef5;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-light);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+p, a {
+    font-family: "Anonymous Pro", monospace;
+}
+
+a {
+    color: var(--color-pink);
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.intro {
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.intro-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.intro-svg {
+    height: 25rem;
+    width: 25rem;
+}
+
+.intro-text {
+    text-align: right;
+}
+
+.intro-text > h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.intro-text > p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+footer {
+    background-color: var(--color-blue);
+    color: var(--color-light);
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
